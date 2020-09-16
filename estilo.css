@@ -1,0 +1,360 @@
+* {
+  box-sizing: border-box;
+}
+body{
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;
+   width: 100vw;
+}
+/*Inicio*/
+header{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#menu{
+    float: right;
+    margin-right: 2%;
+    list-style: none;
+}
+li{
+    font-size: 20px;
+    float: left;
+    padding: 20 10 20 10;
+    text-shadow: 0 0 0.2em #E0FFFF, 0 0 0.2em #E0FFFF, 0 0 0.2em#E0FFFF;
+}
+#imagem_fundo{
+    height: 100vh;
+    background:  url('img/topo.jpg');
+    text-align: center;
+}
+#titulo{
+    padding-top: 15%;
+    font-size: 40px;
+}
+#subtitulo{
+  padding-left: 20%;
+  padding-right: 20%;
+  text-shadow: 0 0 0.2em #E0FFFF, 0 0 0.2em #E0FFFF, 0 0 0.2em#E0FFFF;
+}
+
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+/*corpo do site*/
+.content {
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content hr {
+    width: 3rem;
+    margin-bottom: 2%;
+    text-align: center;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+/* Seção */
+
+section {
+    padding: 20px;
+    float: left;
+}
+
+#ods {
+    background-color:#f7f7f7;
+}
+
+.borda{
+    border-left: 2.9vw #CECCDE solid;
+    border-left-width: 2.9vw;
+    border-left-style: solid;
+    border-left-color:#CECCDE(31, 44, 61);
+}
+
+
+#oq {
+    background-color: #CECCDE;
+}
+
+.borda1{
+    border-left: 2.9vw #BB6FF0 solid;
+    border-left-width: 2.9vw;
+    border-left-style: solid;
+    border-left-color: #BB6FF0(31, 44, 61);
+}
+
+#sociedade {
+    background-color:#f7f7f7;
+}
+
+.borda2{
+    border-left: 2.9vw #CECCDE solid;
+    border-left-width: 2.9vw;
+    border-left-style: solid;
+    border-left-color: #CECCDE(31, 44, 61);
+}
+
+#desafios {
+    background-color: #CECCDE;
+}
+
+.borda3{
+    border-left: 2.9vw#BB6FF0 solid;
+    border-left-width: 2.9vw;
+    border-left-style: solid;
+    border-left-color:#BB6FF0(31, 44, 61);
+}
+
+#desafios .icone {
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 9rem;
+    height: 9rem;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+#desafios .icone img {
+    margin: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+#fatos {
+    background-color: #f7f7f7;
+}
+
+.borda4{
+    border-left: 2.9vw #CECCDE solid;
+    border-left-width: 2.9vw;
+    border-left-style: solid;
+    border-left-color:#CECCDE(31, 44, 61);
+}
+
+.nome{
+    font-size: 1rem;
+    text-align: justify;
+
+    float: left;
+    padding: 0 16%;
+    position: relative;
+    width: 50%;
+}
+
+.p_top {
+    text-align: center;
+    padding: 0 8%;
+    padding-top: 0px;
+    padding-right: 8%;
+    padding-bottom: 0px;
+    padding-left: 8%;
+}
+
+#contato{
+    background-color: #CECCDE;
+}
+
+.borda5{
+    border-left: 2.9vw #D8EED3 solid;
+    border-left-width: 2.9vw;
+    border-left-style: solid;
+    border-left-color:#D8EED3(31, 44, 61);
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.1rem;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.definicao h1 {
+    text-align: center;
+    margin: 80px;
+    font-size: 40px;
+    align-items: center;
+}
+
+.definicao h2 {
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.definicao h5{
+    font-size: 2rem;
+    float: left;
+    padding: 0 18%;
+    position: relative;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.definicao p {
+    text-align: justify;
+    margin: 50px;
+    font-size: 30px;
+}
+
+.ods {
+    border: 1px solid black;
+    border-radius: 8px;
+    color: black;
+    padding: 10 20 10 20;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-decoration: initial;
+    text-decoration-line: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    font-size: 20px;
+}
+
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 50%;
+}
+
+.coluna h2 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.coluna h3 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.justificado ul {
+    text-align: justify;
+    font-size: 5px;
+    margin: 35px;
+    margin-top: 20px;
+}
+
+.card p {
+    vertical-align: middle;
+    font-size: 1.4rem;
+}
+
+.card ul li {
+    text-align: justify;
+    font-size: 23px;
+    margin: 35px;
+    margin-top: 20px;
+}
+
+#rodape{
+    width: 100%;
+    background-color: #D8EED3;
+    color: ;
+    box-sizing: border-box;
+    text-align: left;
+ 
+}
+
+.rodape{
+    font-size: 2rem; 
+}
+
+.contato{
+    font-size: 20px;
+    margin-top: 55px;
+}
+.contato-icone{
+  width: 5%; 
+  display: inline-block;
+  float: left;
+}
+
+
+
+/* responsividade */
+
+@media all and (max-width: 767px){
+    #menu{
+        visibility: hidden;
+    }
+   #imagem_fundo{
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+    background:  url('img/d.jpg');
+   }
+    .coluna{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    .nome{
+        display: block;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    .definicao h5{
+        display: block;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #rodape{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+}
+
+
+
+  
